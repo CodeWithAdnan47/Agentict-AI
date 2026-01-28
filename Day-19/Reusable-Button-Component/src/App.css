@@ -1,0 +1,53 @@
+.container {
+  padding: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+/* Sizes */
+.small {
+  padding: 6px 12px;
+  font-size: 12px;
+}
+
+.medium {
+  padding: 10px 18px;
+  font-size: 14px;
+}
+
+.large {
+  padding: 14px 26px;
+  font-size: 16px;
+}
+
+/* Types */
+.primary {
+  background-color: #4c7cf3;
+  color: white;
+}
+
+.secondary {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.tertiary {
+  background-color: transparent;
+  color: #4c7cf3;
+  border: 2px solid #4c7cf3;
+}
+
+/* Disabled */
+button:disabled {
+  background-color: #ccc;
+  color: #777;
+  cursor: not-allowed;
+}

@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f8f9fb;
+}
+
+section {
+    inline-size: 85%;
+    margin: auto;
+    padding: 50px 0;
+    text-align: center;
+}
+
+p {
+    color: #1abc9c;
+    font-weight: bold;
+    margin-block-end: 10px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-block-end: 40px;
+}
+
+/* GRID CONTAINER */
+section > div {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+}
+
+/* GRID ITEMS */
+section > div > div {
+    background-color: white;
+    padding: 30px 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+section > div > div:hover {
+    background-color: #1abc9c;
+    color: white;
+}
+
+/* ICON */
+i {
+    font-size: 35px;
+    color: #1abc9c;
+    margin-block-end: 15px;
+}
+
+section > div > div:hover i {
+    color: white;
+}
+
+h3 {
+    font-size: 16px;
+    margin-block-end: 10px;
+}
+
+span {
+    font-size: 13px;
+    color: #1abc9c;
+}
+
+section > div > div:hover span {
+    color: white;
+}

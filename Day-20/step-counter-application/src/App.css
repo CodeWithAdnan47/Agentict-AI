@@ -1,0 +1,57 @@
+.app {
+  max-width: 400px;
+  margin: 50px auto;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin: 20px 0 10px;
+}
+
+.steps {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.steps button {
+  padding: 10px 16px;
+  border: 2px solid #2563eb;
+  background: #fde2e2;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+.steps button.active {
+  background: #2563eb;
+  color: white;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.actions button {
+  flex: 1;
+  padding: 12px;
+  border: 2px solid #2563eb;
+  background: white;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.actions button:hover {
+  background: #2563eb;
+  color: white;
+}

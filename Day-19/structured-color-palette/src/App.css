@@ -1,0 +1,32 @@
+.container {
+  padding: 30px;
+}
+
+.palette {
+  margin-bottom: 40px;
+}
+
+.palette h2 {
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+}
+
+.box {
+  height: 70px;
+  border-radius: 6px;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: 11px;
+}
+
+.box span {
+  font-weight: bold;
+}
